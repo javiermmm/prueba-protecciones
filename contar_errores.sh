@@ -15,7 +15,7 @@ if [ ! -f "$LOG" ]; then
 fi
 
 TOTAL=$(wc -l < "$LOG")
-ERRORES=$(grep -ciw "error" "$LOG")
+ERRORES=$(grep -ci "error" "$LOG")
 WARN=$(grep -ciw "warn" "$LOG")
 
 echo "Fichero analizado: $LOG"
