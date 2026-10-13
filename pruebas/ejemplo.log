@@ -1,0 +1,5 @@
+2026-10-13 10:00:00 INFO Aplicación iniciada
+2026-10-13 10:00:05 ERROR Fallo al conectar con la base de datos
+2026-10-13 10:00:06 WARN Reintentando conexión
+2026-10-13 10:00:10 ERROR Tiempo de espera agotado
+2026-10-13 10:01:00 INFO Instalado paquete liberror-perl
